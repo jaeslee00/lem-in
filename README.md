@@ -11,7 +11,7 @@
 ### example of a valid map
 #number of ants  
 3  
-#all the nodes  
+#all the nodes of the map  
 0 843032 406853  
 1 933097 592372  
 2 421796 393782  
@@ -24,7 +24,7 @@
 end 995766 669954  
 ##start  
 start 705984 615879  
-#edges among nodes  
+#edges to connect the nodes    
 1-end  
 2-6  
 4-7  
