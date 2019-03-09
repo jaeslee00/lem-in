@@ -25,22 +25,22 @@ end 995766 669954
 ##start  
 start 705984 615879  
 #edges among nodes  
-1-end
-2-6
-4-7
-6-start
-3-start
-1-5
-7-2
-2-1
-5-4
-start-2
+1-end  
+2-6  
+4-7  
+6-start  
+3-start  
+1-5  
+7-2  
+2-1  
+5-4  
+start-2  
 
 ### installation and execution
-make \ 
-./lem-in < map 
-to run visualizer: \
-./lem-in < map | ./visualizer
+make  
+./lem-in < map  
+to run visualizer:  
+./lem-in < map | ./visualizer  
 
-SDL and OpenGL is used to implement visualizer for the filler.
+SDL and OpenGL is used to implement visualizer for the filler.  
 SDL, OpenGL & pkg-config has to be installed to compile & execute visualizer
