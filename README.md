@@ -1,12 +1,46 @@
-LEM-IN
+# **LEM-IN**
 
-The goal of this project is to find the quickest way to get n ants across the farm.
+### project description
+* The goal of this project is to find the quickest way to get n ants across the farm.
+* Quickest way means the solution with the least number of instructions.
+* All ants can move one nodes in one instruction
+* The ants have to avoid traffic jams as well as walking all over their fellow ants.
+* ##start and ##end node can contain as many ants as necessary
+* However, other nodes can contain one ant at a time
 
-• Quickest way means the solution with the least number of instructions.
+### example of a valid map
+#number of ants
+3
+#all the nodes
+0 843032 406853
+1 933097 592372
+2 421796 393782
+3 619072 45571
+4 958447 633433
+5 111781 892302
+6 113132 347210
+7 659759 152753
+##end
+end 995766 669954
+##start
+start 705984 615879
+#edges among nodes
+1-end
+2-6
+4-7
+6-start
+3-start
+1-5
+7-2
+2-1
+5-4
+start-2
 
-• The ants have to avoid traffic jams as well as walking all over their fellow ants.
+### installation and execution
+make \ 
+./lem-in < map 
+to run visualizer: \
+./lem-in < map | ./visualizer
 
-• At the beginning of the game, all the ants are in the room ##start. The goal is
-to bring them to the room ##end with as few turns as possible. Each room can
-only contain one ant at a time. (except at ##start and ##end which can contain
-as many ants as necessary.)
+SDL and OpenGL is used to implement visualizer for the filler.
+SDL, OpenGL & pkg-config has to be installed to compile & execute visualizer
