@@ -8,6 +8,12 @@
 * ##start and ##end node can contain as many ants as necessary
 * However, other nodes can contain one ant at a time
 
+### Video
+[![](https://img.youtube.com/vi/_3_kpKwUh3Y/0.jpg)](https://www.youtube.com/watch?v=_3_kpKwUh3Y)
+* green node is the start node
+* blue node is the end node
+* white nodes are the other nodes
+
 ### example of a valid map
 #number of ants  
 3  
