@@ -13,6 +13,7 @@
 * green node is the start node
 * blue node is the end node
 * white nodes are the other nodes
+* red circles are the ants
 
 ### example of a valid map
 #number of ants  
